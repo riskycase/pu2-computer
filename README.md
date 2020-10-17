@@ -24,7 +24,7 @@ do not have a Windows device may use the source code and compile it in an IDE.
 If unable to navigate the given buttons to download these files, use 
 [this link](https://github.com/riskycase/pu2-computer/archive/trunk.zip)
 
-##LICENSE
+## LICENSE
 
 The files are provided under the [MIT Expat License](https://github.com/riskycase/pu2-computer/blob/trunk/LICENSE).
  This allows you to freely distribute these files without having to credit the 
