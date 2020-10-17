@@ -1,0 +1,66 @@
+<!--
+	Create a HTML signup page for your school and accept student details like
+	name, fathers name, gender, combination and board
+-->
+<html>
+	<head>
+		<title>Application Form</title>
+	</head>
+	<body bgcolor="yellow">
+		<center>
+			<form action="action.html">
+				<table>
+					<caption>
+						<u> Application Form </u>
+					</caption>
+					<tr>
+						<td>Student's Name: </td>
+						<td>
+							<input type="text" name="Student_name">
+						</td>
+					</tr>
+					<tr>
+						<td>Father's Name: </td>
+						<td>
+							<input type="text" name="Father_name">
+						</td>
+					</tr>
+					<tr>
+						<td>Gender: </td>
+						<td>
+							<input type="radio" name="gender" value=1 checked>Male
+							<input type="radio" name="gender" value=2>Female
+						</td>
+					</tr>
+					<tr>
+						<td>Combination: </td>
+						<td>
+							<input type="checkbox" name="physics">Physics
+							<input type="checkbox" name="chemistry">Chemistry
+							<input type="checkbox" name="biology">Biology
+							<input type="checkbox" name="computer">Computer Science
+						</td>
+					</tr>
+					<tr>
+						<td>Board: </td>
+						<td>
+							<select name="board">
+								<option name="CBSE">CBSE</option>
+								<option name="ICSE">ICSE</option>
+								<option name="State">State</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan=2>
+							<center>
+								<input type="submit" name="submit" value="Submit">
+								<input type="reset" name="reset" value="Reset">
+							</center>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</center>
+	</body>
+</html>
